@@ -10,4 +10,11 @@ package br.com.linda.classes;
  */
 public interface ClienteMtds {
     //Interface para colocar metodos necessarios a todas as classes filhas
+    void adicionarCliente(); 
+    void removerCliente(int id);
+    void atualizarCliente(Cliente cliente);
+    //não entendi exatamente o que o metodo abaixo deve ser, mas o chatgpt indicou.
+    List<Cliente> listarClientes();
+    
+    
 }
